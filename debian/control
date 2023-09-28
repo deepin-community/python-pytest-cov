@@ -8,8 +8,8 @@ Build-Depends-Indep:
  python3-all,
  python3-coverage,
  python3-setuptools,
-Standards-Version: 4.6.0
-Homepage: https://github.com/schlamar/pytest-cov
+Standards-Version: 4.6.2
+Homepage: https://github.com/pytest-dev/pytest-cov
 Vcs-Git: https://salsa.debian.org/debian/python-pytest-cov.git
 Vcs-Browser: https://salsa.debian.org/debian/python-pytest-cov
 Testsuite: autopkgtest-pkg-python
@@ -24,7 +24,6 @@ Depends: ${misc:Depends},
  libjs-jquery-isonscreen,
  libjs-jquery-tablesorter,
  libjs-jquery-throttle-debounce,
- python3-cov-core (>= 1.12-1),
  python3-pytest (>= 3.6)
 Provides: ${python3:Provides}
 Recommends: ${python3:Recommends}

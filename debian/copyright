@@ -1,13 +1,15 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: python-pytest-cov
-Source: https://github.com/schlamar/pytest-cov
+Source: https://github.com/pytest-dev/pytest-cov
 
 Files: *
-Copyright: © 2012, Marc Schlaich / Meme Dough <memedough@gmail.com>
+Copyright: 2014-2022 Ionel Cristian Mărieș
+           2014-2016 Marc Schlaich <memedough@gmail.com>
+           2011-2023 Various authors, see AUTHORS.rst
 License: MIT
 
 Files: debian/*
-Copyright: © 2014 Federico Ceratto <federico.ceratto@gmail.com>
+Copyright: 2014-2022 Federico Ceratto <federico.ceratto@gmail.com>
 License: MIT
 
 License: MIT
