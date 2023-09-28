@@ -1,5 +1,5 @@
 ---
-Bug-Database: https://github.com/schlamar/pytest-cov/issues
-Bug-Submit: https://github.com/schlamar/pytest-cov/issues/new
-Repository: https://github.com/schlamar/pytest-cov.git
-Repository-Browse: https://github.com/schlamar/pytest-cov
+Bug-Database: https://github.com/pytest-dev/pytest-cov/issues
+Bug-Submit: https://github.com/pytest-dev/pytest-cov/issues/new
+Repository: https://github.com/pytest-dev/pytest-cov.git
+Repository-Browse: https://github.com/pytest-dev/pytest-cov

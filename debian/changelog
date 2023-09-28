@@ -1,3 +1,17 @@
+python-pytest-cov (4.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 25 Jun 2023 15:11:30 +0100
+
+python-pytest-cov (4.0.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop cov-core dependency (Closes: #1008835)
+    Thanks to Boyuan Yang
+
+ -- Federico Ceratto <federico@debian.org>  Sat, 15 Oct 2022 17:20:44 +0100
+
 python-pytest-cov (3.0.0-1) unstable; urgency=medium
 
   * New upstream release
