@@ -1,5 +1,23 @@
+
 Changelog
 =========
+
+5.0.0 (2024-03-24)
+------------------
+
+* Removed support for xdist rsync (now deprecated).
+  Contributed by Matthias Reichenbach in `#623 <https://github.com/pytest-dev/pytest-cov/pull/623>`_.
+* Switched docs theme to Furo.
+* Various legacy Python cleanup and CI improvements.
+  Contributed by Christian Clauss and Hugo van Kemenade in
+  `#630 <https://github.com/pytest-dev/pytest-cov/pull/630>`_,
+  `#631 <https://github.com/pytest-dev/pytest-cov/pull/631>`_,
+  `#632 <https://github.com/pytest-dev/pytest-cov/pull/632>`_ and
+  `#633 <https://github.com/pytest-dev/pytest-cov/pull/633>`_.
+* Added a ``pyproject.toml`` example in the docs.
+  Contributed by Dawn James in `#626 <https://github.com/pytest-dev/pytest-cov/pull/626>`_.
+* Modernized project's pre-commit hooks to use ruff. Initial POC contributed by
+  Christian Clauss in `#584 <https://github.com/pytest-dev/pytest-cov/pull/584>`_.
 
 4.1.0 (2023-05-24)
 ------------------
@@ -44,7 +62,7 @@ Changelog
   Contributed by Andre Brisco in `#543 <https://github.com/pytest-dev/pytest-cov/pull/543>`_
   and Colin O'Dell in `#525 <https://github.com/pytest-dev/pytest-cov/pull/525>`_.
 * Added support for LCOV output format via `--cov-report=lcov`. Only works with coverage 6.3+.
-  Contributed by Christian Fetzer in `#536 <https://github.com/pytest-dev/pytest-cov/issues/536>`_.
+  Contributed by Christian Fetzer in `#536 <https://github.com/pytest-dev/pytest-cov/pull/536>`_.
 * Modernized pytest hook implementation.
   Contributed by Bruno Oliveira in `#549 <https://github.com/pytest-dev/pytest-cov/pull/549>`_
   and Ronny Pfannschmidt in `#550 <https://github.com/pytest-dev/pytest-cov/pull/550>`_.
@@ -115,7 +133,7 @@ Changelog
 * Removed the empty `console_scripts` entrypoint that confused some Gentoo build script.
   I didn't ask why it was so broken cause I didn't want to ruin my day.
   Contributed by Michał Górny in `#434 <https://github.com/pytest-dev/pytest-cov/pull/434>`_.
-* Fixed the missing `coverage context <https://coverage.readthedocs.io/en/stable/contexts.html>`_
+* Fixed the missing `coverage context <https://coverage.readthedocs.io/en/latest/contexts.html>`_
   when using subprocesses.
   Contributed by Bernát Gábor in `#443 <https://github.com/pytest-dev/pytest-cov/pull/443>`_.
 * Updated the config section in the docs.
@@ -144,7 +162,7 @@ Changelog
 * Made pytest startup faster when plugin not active by lazy-importing.
   Contributed by Anders Hovmöller in `#339 <https://github.com/pytest-dev/pytest-cov/pull/339>`_.
 * Various CI improvements.
-  Contributed by Daniel Hahler in `#363 <https://github.com/pytest-dev/pytest-cov/pull/>`_ and
+  Contributed by Daniel Hahler in `#363 <https://github.com/pytest-dev/pytest-cov/pull/363>`_ and
   `#364 <https://github.com/pytest-dev/pytest-cov/pull/364>`_.
 * Various Python support updates (drop EOL 3.4, test against 3.8 final).
   Contributed by Hugo van Kemenade in
